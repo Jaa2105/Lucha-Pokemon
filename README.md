@@ -50,9 +50,9 @@ java ArrayGame
 
 Interfaces:
 
-  -Atacante (Attacker): Defines the atacar method.
+  - Atacante (Attacker): Defines the atacar method.
 
-  -Defensor (Defender): Defines the defender method.
+  - Defensor (Defender): Defines the defender method.
 
 ## Future Improvements
 
