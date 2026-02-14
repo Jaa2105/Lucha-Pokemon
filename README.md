@@ -1,72 +1,74 @@
 # ArrayGame
 
-**ArrayGame** es un sencillo juego de combate por turnos desarrollado en Java, donde controlas un personaje en una cuadrícula, moviéndote hasta encontrar y enfrentarte a un enemigo aleatorio.
+**ArrayGame** is a simple turn-based combat game developed in Java. You control a character on a grid, moving around to find and face a random enemy.
 
-## Características
+## Features
 
-- Sistema de movimiento en una cuadrícula 5x5 (WASD).
-- Creación de personaje personalizado (nombre, salud, fuerza).
-- Sistema de batalla por turnos contra enemigos.
-- Enemigos variados con diferentes características.
-- Interfaces para atacar y defender.
-- Uso de herencia y clases abstractas para modelar los seres vivos.
+- 5x5 grid-based movement system (WASD).
+- Custom character creation (Name, Health, Strength).
+- Turn-based battle system against enemies.
+- Varied enemies with different characteristics.
+- Attack and Defense interfaces.
+- Use of inheritance and abstract classes to model living beings.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - Java SE
-- Programación orientada a objetos (OOP)
+- Object-Oriented Programming (OOP)
 
-## Instalación
+## Installation
 
-1. Clona este repositorio:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/tuusuario/ArrayGame.git
-   ```
+   git clone [https://github.com/yourusername/ArrayGame.git](https://github.com/yourusername/ArrayGame.git)
 
-2. Compila el archivo Java:
-   ```bash
-   javac ArrayGame.java
-   ```
+Compile the Java file:
+javac ArrayGame.java
 
-3. Ejecuta el programa:
-   ```bash
-   java ArrayGame
-   ```
+Run the program:
+java ArrayGame
 
-## Instrucciones de juego
+## How to Play
+- At the start, enter your character's name (Pokémon style).
 
-- Al iniciar, introduce el nombre de tu personaje (tipo pokémon).
-- Usa las teclas **W** (arriba), **A** (izquierda), **S** (abajo), **D** (derecha) para moverte.
-- Busca al enemigo en la cuadrícula.
-- Al encontrarlo, comenzará la batalla.
-- Gana derrotando al enemigo en combate.
+- Use the keys W (up), A (left), S (down), and D (right) to move.
 
-## Estructura del proyecto
+- Search for the enemy on the grid.
 
-- **`SerVivo`**: Clase abstracta base para personajes y enemigos.
-- **`Personaje`**: Hereda de `SerVivo` e implementa `Atacante` y `Defensor`.
-- **`Enemigo`**: Hereda de `SerVivo` e implementa `Atacante`.
-- **`ArrayGame`**: Contiene la lógica principal del juego.
-- **Interfaces**:
-  - `Atacante`: Define el método `atacar`.
-  - `Defensor`: Define el método `defender`.
+- Once found, the battle will begin.
 
-## Posibles mejoras futuras
+- Win by defeating the enemy in combat.
 
-- Agregar múltiples niveles.
-- Implementar inventario y objetos.
-- Mejorar IA de los enemigos.
-- Gráficos utilizando bibliotecas como JavaFX o Swing.
+## Project Structure
+- SerVivo (Living Being): Abstract base class for characters and enemies.
 
-## Autor
+- Personaje (Character): Inherits from SerVivo and implements Atacante and Defensor.
 
-- **Tu Nombre** - [Tu GitHub](https://github.com/tuusuario)
+- Enemigo (Enemy): Inherits from SerVivo and implements Atacante.
 
-## Licencia
+- ArrayGame: Contains the main game logic.
 
-Este proyecto está bajo la licencia [MIT](LICENSE).
+Interfaces:
 
----
+  -Atacante (Attacker): Defines the atacar method.
 
-❤ï️ ¡Si te gusta este proyecto, no olvides darle una estrella! ✨
+  -Defensor (Defender): Defines the defender method.
+
+## Future Improvements
+
+- Add multiple levels.
+
+- Implement an inventory and items system.
+
+- Improve enemy AI.
+
+- Add graphics using libraries like JavaFX or Swing.
+
+## Author
+
+Jaime Alonso Amador - Jaa2105
+
+## License
+
+This project is licensed under the MIT License.
 
